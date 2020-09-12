@@ -17,3 +17,31 @@ I work at BTI as a C# developer, but I like FrontEnd. I did my first job in 2020
 |JavaScript|6|
 |Git|6|
 |C#|6|
+
+### Code examples
+++Reversed Strings++
+``` javascript
+function solution(str){
+  return str.split('').reverse().join('')
+}
+```
+++Multiply++
+``` javascript
+function multiply(a, b){
+  return a * b;
+}
+```
+
+## Experience
+* HTML/CSS (Suits & Landing pages)
+  * CoralWater (my first project) ++***[Link](https://zhenya85.github.io/coralwater/)***++
+  * GBLanding  ++***[Link](https://zhenya85.github.io/GBLanding/)***++
+  * Usance  ++***[Link](https://zhenya85.github.io/Usance/)***++
+  * Stimulus  ++***[Link](https://zhenya85.github.io/stimulus/)***++
+  * HistoricalGames  ++***[Link](https://zhenya85.github.io/HistoricalGames/)***++
+  * OrganicFood  ++***[Link](https://zhenya85.github.io/OrganicFood/)***++
+  * Snow (Epam project for training)  ++***[Link](https://zhenya85.github.io/Snow/)***++
+* JavaScript (practice)
+  * Fastfood  ++***[Link](https://zhenya85.github.io/Fastfood/)***++
+  * Snake (game)  ++***[Link](https://zhenya85.github.io/Snake/)***++
+  * Calendar  ++***[Link](https://zhenya85.github.io/Calendar/)***++
