@@ -45,3 +45,15 @@ function multiply(a, b){
   * Fastfood  ++***[Link](https://zhenya85.github.io/Fastfood/)***++
   * Snake (game)  ++***[Link](https://zhenya85.github.io/Snake/)***++
   * Calendar  ++***[Link](https://zhenya85.github.io/Calendar/)***++
+
+## Education
+* GeekBrains courses
+   - HTML/CSS (***[certificate](https://geekbrains.ru/certificates/633912.en)***)
+   - HTML5/CSS3 (***[certificate](https://geekbrains.ru/certificates/351259.en)***)
+   - JavaScript (***[certificate](https://geekbrains.ru/certificates/788710.en)***)
+* ITStep courses
+* English course by Streamline
+
+## English
+A1+
+I studied English on Streamline for about 1 year (Elementary level). Now I work out on my own (an hour a day).
