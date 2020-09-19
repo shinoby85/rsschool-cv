@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-:root{
-    --logo-margin:13px;
+
+:root {
+    --logo-margin: 13px;
     --btn-color: #00AFDB;
-    --btn-color-hover:#009CC2;
-    --coomunity-block-size:39.2%;
+    --btn-color-hover: #009CC2;
+    --coomunity-block-size: 39.2%;
     --community-slid-rows: 19.8%;
     --frame-width: 427px;
     --frame-quantity: 3;
+    --singup-email-aria: 84%;
 }
-html,body{
+
+html, body {
     height: 100vh;
 }
-.container{
+
+.container {
     margin: 0 auto;
     width: 1600px;
     min-height: 100vh;
@@ -20,7 +24,8 @@ html,body{
     font-size: 14px;
     color: #fff;
 }
-.header{
+
+.header {
     padding: 25px 39px 85px 27px;
     box-sizing: border-box;
     width: 100%;
@@ -33,33 +38,40 @@ html,body{
     align-items: center;
     justify-content: space-between;
 }
-.nav-menu{
+
+.nav-menu {
 
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 38.1%;
 }
-.menu-item{
+
+.menu-item {
     text-decoration: none;
     color: #ffffff;
-    border-bottom: 1px solid rgba(255,255,255,0);
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
-.menu-item:hover{
+
+.menu-item:hover {
     cursor: pointer;
-    border-bottom: 1px solid rgba(255,255,255,1);
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
-.menu-item:last-child{
+
+.menu-item:last-child {
     margin-right: 3px;
     margin-left: -3px;
 }
-.menu-selected{
-    border-bottom: 1px solid rgba(255,255,255,1);
+
+.menu-selected {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
-.logo-link{
+
+.logo-link {
     margin: 0 var(--logo-margin) 0 var(--logo-margin);
 }
-.head__content{
+
+.head__content {
     min-height: 341px;
     display: flex;
     flex-direction: column;
@@ -69,7 +81,8 @@ html,body{
     padding-left: 17px;
     align-items: center;
 }
-.title{
+
+.title {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 64px;
@@ -77,13 +90,15 @@ html,body{
     text-align: center;
     line-height: 0;
 }
-.head__text{
+
+.head__text {
     margin: 16px 135px 30px 130px;
     line-height: 141%;
     font-size: 18px;
     text-align: center;
 }
-.button{
+
+.button {
     font-weight: bold;
     font-size: 14px;
     color: #FFFFFF;
@@ -97,19 +112,23 @@ html,body{
     height: 46px;
     background: var(--btn-color);
 }
-.button:hover{
+
+.button:hover {
     background: var(--btn-color-hover);
 }
-.head__button__position{
+
+.head__button__position {
     margin-right: 7px;
 }
-.social__wraper{
+
+.social__wraper {
     width: 171px;
     display: flex;
     justify-content: space-between;
     margin-left: 13px;
 }
-.about{
+
+.about {
     min-height: 842px;
     width: 100%;
     padding: 120px 270px 140px 268px;
@@ -119,14 +138,16 @@ html,body{
     display: flex;
     justify-content: space-between;
 }
-.about__content{
+
+.about__content {
     padding: 11em 20px 0 1px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 40%;
 }
-.section__title{
+
+.section__title {
     margin-right: 20px;
     margin-bottom: 21px;
     line-height: 123%;
@@ -138,16 +159,19 @@ html,body{
     text-transform: uppercase;
     color: #373737;
 }
-.section__text{
+
+.section__text {
     font-size: 14px;
     line-height: 145%;
     letter-spacing: -0.02px;
     color: #4E4E4E;
 }
-.about__button_pos{
+
+.about__button_pos {
     margin-top: 30px;
 }
-.community{
+
+.community {
     width: 100%;
     min-height: 505px;
     padding: 60px 0 140px 130px;
@@ -157,7 +181,8 @@ html,body{
     box-sizing: border-box;
     color: #000;
 }
-.community__content{
+
+.community__content {
     padding: 95px 120px 0 122px;
     min-height: 305px;
     width: var(--coomunity-block-size);
@@ -168,7 +193,8 @@ html,body{
     flex-direction: column;
     align-items: center;
 }
-.community__content__title{
+
+.community__content__title {
     margin-top: 30px;
     margin-bottom: 10px;
     letter-spacing: 2.4px;
@@ -177,7 +203,8 @@ html,body{
     font-size: 16px;
     font-weight: 500;
 }
-.community__content__text{
+
+.community__content__text {
     margin-top: 11px;
     margin-right: 2px;
     width: 91%;
@@ -188,7 +215,7 @@ html,body{
 }
 
 
-.community__slider__wrapper{
+.community__slider__wrapper {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -199,7 +226,8 @@ html,body{
     align-items: flex-end;
 
 }
-.community__slide__btn-nav{
+
+.community__slide__btn-nav {
     height: var(--community-slid-rows);
     width: 13%;
     margin-right: 28%;
@@ -212,40 +240,48 @@ html,body{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-.arrow{
+
+.arrow {
     display: block;
     width: 7px;
     height: 7px;
     border-left: 2px solid black;
     border-top: 2px solid black;
 }
-.arrow_left{
+.arrow:hover{
+    opacity: .5;
+}
+.arrow_left {
     transform: rotate(-45deg);
     margin-right: 7px;
 }
-.arrow_right{
+
+.arrow_right {
     transform: rotate(135deg);
     margin-left: 7px;
 }
 
-.community__slider__window{
+.community__slider__window {
     height: calc(100% - var(--community-slid-rows));
     width: 100%;
     position: relative;
     overflow: hidden;
 }
-.slider__band{
+
+.slider__band {
     position: absolute;
-    width: calc(var(--frame-width)*var(--frame-quantity));
+    width: calc(var(--frame-width) * var(--frame-quantity));
     display: flex;
     justify-content: space-between;
 }
-.process{
+
+.process {
     padding: 119px 367px 140px 269px;
     display: flex;
     justify-content: space-between;
 }
-.process__content{
+
+.process__content {
     width: 417px;
     padding: 178px 1px 0 0;
     -webkit-box-sizing: border-box;
@@ -253,7 +289,61 @@ html,body{
     box-sizing: border-box;
     font-size: 14px;
 }
-.community__button_pos{
+
+.community__button_pos {
     margin-top: 29px;
     width: 179px;
+}
+
+.singup {
+    padding: 0 0 80px 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 598px;
+    background-image: url(assets/images/hristina-morillo.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.singup__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.singup__form {
+    margin: 10px 3px 0 0;
+    display: flex;
+    justify-content: space-between;
+    width: 406px;
+    height: 46px;
+}
+.singup__form__aria{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: var(--singup-email-aria);
+    height: 100%;
+    padding: 5px 23px 0;
+    outline: none;
+}
+.singup__form__tick{
+    width: calc(100% - var(--singup-email-aria));
+    height: 100%;
+    background: #00AFDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.singup__form__tick:hover{
+    background: #009CC2;
 }
