@@ -8,7 +8,7 @@ html,body{
 .container{
     margin: 0 auto;
     width: 1600px;
-    height: 100vh;
+    min-height: 100vh;
     border: 1px solid #000;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -91,6 +91,9 @@ html,body{
     height: 46px;
     background: #00AFDB;
 }
+.button:hover{
+    background: #009CC2;
+}
 .head-button-position{
     margin-right: 7px;
 }
@@ -99,4 +102,42 @@ html,body{
     display: flex;
     justify-content: space-between;
     margin-left: 13px;
+}
+.about{
+    min-height: 842px;
+    width: 100%;
+    padding: 120px 270px 140px 268px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.about-content{
+    padding: 11em 20px 0 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 40%;
+}
+.section-title{
+    margin-right: 20px;
+    margin-bottom: 21px;
+    line-height: 123%;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+}
+.section-text{
+    font-size: 14px;
+    line-height: 145%;
+    letter-spacing: -0.02px;
+    color: #4E4E4E;
+}
+.about-btn-pos{
+    margin-top: 30px;
 }
