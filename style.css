@@ -15,7 +15,7 @@ html,body{
     color: #fff;
 }
 .header{
-    padding: 25px 39px 84px 27px;
+    padding: 25px 39px 85px 27px;
     box-sizing: border-box;
     width: 100%;
     min-height: 744px;
@@ -59,7 +59,7 @@ html,body{
     flex-direction: column;
     width: 50%;
     box-sizing: border-box;
-    padding-top: 42px;
+    padding-top: 41px;
     padding-left: 17px;
     align-items: center;
 }
