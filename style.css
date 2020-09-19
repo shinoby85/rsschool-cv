@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+:root{
+    --logo-margin:13px;
+}
+html,body{
+    height: 100vh;
+}
+.container{
+    margin: 0 auto;
+    width: 1600px;
+    height: 100vh;
+    border: 1px solid #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+.header{
+    padding: 25px 39px 84px 27px;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 744px;
+    background-image: url(assets/images/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-menu{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 38.1%;
+}
+.menu-item{
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255,255,255,0);
+}
+.menu-item:hover{
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255,255,255,1);
+}
+.menu-item:last-child{
+    margin-right: 3px;
+    margin-left: -3px;
+}
+.menu-selected{
+    border-bottom: 1px solid rgba(255,255,255,1);
+}
+.logo-link{
+    margin: 0 var(--logo-margin) 0 var(--logo-margin);
+}
+.head-content{
+    min-height: 341px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-sizing: border-box;
+    padding-top: 42px;
+    padding-left: 17px;
+    align-items: center;
+}
+.title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 64px;
+    letter-spacing: 4.5px;
+    text-align: center;
+    line-height: 0;
+}
+.head-text{
+    margin: 16px 135px 30px 130px;
+    line-height: 141%;
+    font-size: 18px;
+    text-align: center;
+}
+.button{
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 184px;
+    height: 46px;
+    background: #00AFDB;
+}
+.head-button-position{
+    margin-right: 7px;
+}
+.social-wraper{
+    width: 171px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 13px;
+}
