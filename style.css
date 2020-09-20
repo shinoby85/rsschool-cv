@@ -25,7 +25,7 @@ html, body {
     color: #fff;
 }
 
-.header {
+.your-life {
     padding: 25px 39px 85px 27px;
     box-sizing: border-box;
     width: 100%;
@@ -38,7 +38,11 @@ html, body {
     align-items: center;
     justify-content: space-between;
 }
-
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .nav-menu {
 
     display: flex;
@@ -71,7 +75,7 @@ html, body {
     margin: 0 var(--logo-margin) 0 var(--logo-margin);
 }
 
-.head__content {
+.your-life__content {
     min-height: 341px;
     display: flex;
     flex-direction: column;
@@ -91,7 +95,7 @@ html, body {
     line-height: 0;
 }
 
-.head__text {
+.your-life__text {
     margin: 16px 135px 30px 130px;
     line-height: 141%;
     font-size: 18px;
@@ -117,7 +121,7 @@ html, body {
     background: var(--btn-color-hover);
 }
 
-.head__button__position {
+.your-life__button__position {
     margin-right: 7px;
 }
 
@@ -127,8 +131,11 @@ html, body {
     justify-content: space-between;
     margin-left: 13px;
 }
+.social-icon:hover{
+    opacity: .5;
+}
 
-.about {
+.rappresent {
     min-height: 842px;
     width: 100%;
     padding: 120px 270px 140px 268px;
@@ -139,7 +146,7 @@ html, body {
     justify-content: space-between;
 }
 
-.about__content {
+.rappresent__content {
     padding: 11em 20px 0 1px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -167,7 +174,7 @@ html, body {
     color: #4E4E4E;
 }
 
-.about__button_pos {
+.rappresent__button_pos {
     margin-top: 30px;
 }
 
@@ -275,7 +282,7 @@ html, body {
     justify-content: space-between;
 }
 
-.process {
+.implement {
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -285,7 +292,7 @@ html, body {
     justify-content: space-between;
 }
 
-.process__content {
+.implement__content {
     width: 417px;
     padding: 178px 1px 0 0;
     -webkit-box-sizing: border-box;
@@ -341,6 +348,8 @@ html, body {
     outline: none;
 }
 .singup__form__tick{
+    outline: none;
+    border: none;
     width: calc(100% - var(--singup-email-aria));
     height: 100%;
     background: #00AFDB;
@@ -351,6 +360,7 @@ html, body {
 }
 .singup__form__tick:hover{
     background: #009CC2;
+    cursor: pointer;
 }
 .download{
     min-height: 468px;
@@ -446,6 +456,9 @@ html, body {
     text-decoration: none;
     font-size: 14px;
     color: #FFFFFF;
+}
+.footer__category__item:hover{
+    opacity: .5;
 }
 .footer__category__line{
     display: block;
