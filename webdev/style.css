@@ -188,6 +188,8 @@ html, body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     color: #000;
+    background: #F5F6F7;
+
 }
 
 .community__content {
@@ -374,6 +376,8 @@ html, body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 1px 0 69px 1px;
+    background: #F5F6F7;
+
 }
 .downloat__title{
     font-weight: bold;
