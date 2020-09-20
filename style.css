@@ -17,10 +17,9 @@ html, body {
 }
 
 .container {
-    margin: 0 auto;
+    margin: 1px auto 0;
     width: 1600px;
     min-height: 100vh;
-    border: 1px solid #000;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #fff;
@@ -363,7 +362,7 @@ html, body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 0px 0 69px 1px;
+    padding: 1px 0 69px 1px;
 }
 .downloat__title{
     font-weight: bold;
@@ -396,6 +395,9 @@ html, body {
     width: 187px;
     text-decoration: none;
 }
+.download__market:hover>.market__text{
+    background: #009CC2;
+}
 .market__text{
     display: flex;
     align-items: center;
@@ -424,4 +426,41 @@ html, body {
     min-height: 185px;
     width: 100%;
     background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 160px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.footer__category{
+    padding-top: 2px;
+    width: 236px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__category__item{
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.footer__category__line{
+    display: block;
+    height: 8px;
+    width: .1px;
+    border-left: 1px solid #4E4E4E;
+}
+.footer__logo{
+    margin-right: 4.6em;
+    width: 44px;
+    height: 45px;
+}
+.footer__info{
+    padding-top: 7px;
+    width: 170px;
+    min-height: 20px;
+    color: #818181;
 }
