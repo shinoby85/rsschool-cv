@@ -1,4 +1,5 @@
 # YAUHENI PANKRATSYEU
+<img alt="My photo" src="images/myImgNew.jpg" width="260">
 
 ## Contact Info
 
