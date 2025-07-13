@@ -11,7 +11,7 @@
 <header>
     <nav>
         <ul class="container nav__container">
-            <li>Menu: </li>
+            <li>Menu:</li>
             <li><a href="#home">Home</a></li>
             <li><a href="#summary">Summary</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -260,6 +260,33 @@
             <div class="main__content">
                 A2-B1
             </div>
+        </section>
+        <section id="code" class="main__section">
+            <h2 class="main__title">Code</h2>
+            <pre>
+                <code class="main__content">
+async function parseXML(filePath) {
+  try {
+    // Читаем XML файл
+    const xmlData = fs.readFileSync(filePath, 'utf8');
+
+    // Создаем новый парсер
+    const parser = new xml2js.Parser({
+      explicitArray: false, // Отключает создание массивов для одиночных элементов
+      trim: true // Удаляет пробелы
+    });
+
+    // Парсим XML
+    const result = await parser.parseStringPromise(xmlData);
+
+    return result;
+  } catch (error) {
+    console.error('Ошибка при парсинге XML:', error);
+    throw error;
+  }
+}
+                </code>
+            </pre>
         </section>
     </div>
 </main>
