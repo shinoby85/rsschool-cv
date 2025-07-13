@@ -1,0 +1,71 @@
+html,body{
+    min-height: 100%;
+    width: 100%;
+}
+header, main, footer {
+    margin-top: 10px;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #000;  // TODO: Remove after it will be completed
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.header__container{
+    background-color: rgba(252, 170, 13, 0.09);
+
+}
+.image-profile__wrapper{
+    width: 250px;
+}
+.image-profile__wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header__title{
+    margin-top: 0;
+}
+.skill-table{
+    border-collapse: collapse;
+}
+.skill-table tr>*{
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 10px;
+}
+.skill-table tr>th:first-child,
+.skill-table tr>td:first-child{
+    text-align: right;
+}
+.skill-table tr>th:last-child{
+    text-align: left;
+}
+.skill-table tbody tr:nth-child(odd){
+    background-color: rgba(39,178,245,0.1);
+}
+.social-links__wrapper{
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+}
+.social-links__wrapper a{
+    border: 1px solid #000;
+    display: block;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.social-links__wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
