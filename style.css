@@ -127,21 +127,22 @@ header, main, footer {
     justify-content: space-between;
     gap: 10px;
 }
-.experience-list > li{
+.list > li{
     list-style-type: none;
     margin-bottom: 30px;
 }
 .experience-list > li:before{
     content: "🌟";
 }
-.experience-list ul > li{
+.list ul > li{
     list-style-type: disc;
     line-height: 1.5;
 }
-.experience-list ul > li a{
+.list li a{
     font-style: italic;
     font-weight: 600;
 }
+.education-image__wrapper,
 .experience-image__wrapper{
     display: flex;
     flex-direction: column;
@@ -149,7 +150,15 @@ header, main, footer {
     width: 100%;
     max-width: 400px;
 }
+.education-image__wrapper img,
 .experience-image__wrapper img{
     width: 100%;
     object-fit: contain;
+}
+.education__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.education-list > li:before{
+    content: "🎓";
 }
